@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Make cream</string>
+    <string name="welcome_button">Start</string>
+    <string name="type_of_skin">Type of skin</string>
+    <string name="sensitive_skin">Sensitive</string>
+    <string name="combination_skin">Combination</string>
+    <string name="dry_skin">Dry</string>
+    <string name="oily_skin">Oily</string>
+    <string name="choose_ingredients">Choose ingredients</string>
+    <string name="order_cream">Order cream</string>
+    <string name="order_summary">Order summary</string>
+    <string name="order_now">Order now</string>
+    <string name="separator">x</string>
+    <string name="initial_order_symbol">0</string>
+    <string name="minus_symbol">-</string>
+    <string name="plus_symbol">+</string>
+    <string name="initial_symbol">0</string>
+
+</resources>
+
+
+

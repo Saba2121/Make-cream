@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background_register">
+
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Register"
+        android:textColor="@color/teal_700"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/userNameEditTextSU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="User name"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/passwordEditTextSU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Confirm password"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/createUserBtn"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:theme="@style/ButtonStyle"
+        android:background="@drawable/button"
+        android:text="SIGN UP"
+        android:textSize="24dp" />
+
+</LinearLayout>
